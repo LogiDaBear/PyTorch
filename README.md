@@ -16,6 +16,17 @@ Tensors can also be used to represent more complex data structures, such as neur
 
 Tensors are a powerful tool for representing and manipulating data in software development. They are used in a variety of different applications, including machine learning, computer vision, and natural language processing.
 
+## Gradients
+
+Gradients. Use of gradients in PyTorch is to train neural networks. Neural networks are a type of machine learning model that are made up of layers of interconnected neurons. Each neuron in a neural network has a set of parameters that determine how it behaves. The parameters of a neural network are typically optimized using a technique called gradient descent. Gradient descent works by iteratively updating the parameters of a neural network in the direction of the negative gradient of the loss function. The gradient of the loss function is a vector that tells you how much the loss function will change if you change each of the parameters of the neural network.
+
+## Common Use Cases for PyTorch
+
+- Computer vision: PyTorch is a popular choice for computer vision tasks, such as image classification, object detection, and segmentation.
+- Natural language processing: PyTorch is also a popular choice for natural language processing tasks, such as text classification, machine translation, and question answering.
+- Speech recognition: PyTorch can also be used for speech recognition tasks.
+- Robotics: PyTorch can be used for robotics tasks, such as planning, control, and simulation.
+- Healthcare: PyTorch can be used for healthcare tasks, such as medical image analysis and drug discovery.
 
 ***If you stored the tensor on the CPU not the GPU be careful - both objects will share the same memory location, this means if you change one you will change the other. See below example***
 ```
